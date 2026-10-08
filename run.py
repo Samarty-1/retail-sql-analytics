@@ -8,6 +8,7 @@ The SQL does all the work; this file only executes it in order.
 from __future__ import annotations
 
 import argparse
+import sys
 from pathlib import Path
 
 import duckdb
@@ -35,6 +36,9 @@ def main() -> None:
     parser.add_argument("--db", default=str(ROOT / "data" / "retail.duckdb"))
     parser.add_argument("--raw", default=str(RAW))
     args = parser.parse_args()
+    # product descriptions contain characters (e.g. the pound sign) that a
+    # Windows console's default code page can't print
+    sys.stdout.reconfigure(encoding="utf-8")
 
     out = ROOT / "results"
     out.mkdir(exist_ok=True)
