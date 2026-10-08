@@ -1,0 +1,9 @@
+step,n_rows,amount,no_customer
+raw rows,1067371,,
+kept: sale,1003340,19643861.62,226761
+dropped: sheet overlap,22523,,
+kept: cancellation,17915,-716462.57,328
+dropped: duplicate copy,11812,,
+kept: stock_adjustment,5980,0.00,5902
+kept: non_product,5795,75748.71,2154
+kept: bad_debt_adjustment,6,-147614.08,6

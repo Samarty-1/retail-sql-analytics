@@ -1,0 +1,8 @@
+segment,customers,pct_customers,net_sales,pct_net_sales,median_recency_days,median_orders,median_net_sales
+Champions,1330,22.7,11424749,69.8,17.0,11.0,3721
+Loyal,1365,23.3,2569052,15.7,67.0,4.0,1078
+Cannot lose them,352,6.0,1033204,6.3,334.0,6.0,1696
+At risk,1143,19.5,860295,5.3,402.0,2.0,553
+New / promising,440,7.5,166657,1.0,26.0,1.0,337
+Needs attention,375,6.4,156363,1.0,97.0,1.0,324
+Lost,847,14.5,149679,0.9,458.0,1.0,167

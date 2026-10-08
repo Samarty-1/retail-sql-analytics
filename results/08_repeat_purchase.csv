@@ -1,0 +1,10 @@
+cohort_quarter,new_customers,second_order_90d_pct,median_days_to_second,is_right_censored,is_left_censored
+2009-10-01,951,61.5,49.5,false,true
+2010-01-01,1184,49.5,72.0,false,false
+2010-04-01,816,38.5,91.0,false,false
+2010-07-01,587,47.4,59.0,false,false
+2010-10-01,777,35.5,51.0,false,false
+2011-01-01,376,38.6,63.0,false,false
+2011-04-01,325,43.7,49.0,false,false
+2011-07-01,396,53.8,39.0,true,false
+2011-10-01,440,33.4,20.0,true,false
