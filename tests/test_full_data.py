@@ -3,7 +3,8 @@ from run import analysis
 
 
 def one(con, sql):
-    return con.sql(sql).fetchone()[0]
+    # fetchall(), not fetchone(): DuckDB 2.0 relations have no fetchone()
+    return con.sql(sql).fetchall()[0][0]
 
 
 def test_sheet_overlap_is_an_exact_duplicate(full):
